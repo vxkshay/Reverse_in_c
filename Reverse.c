@@ -6,7 +6,7 @@ int main(){
     int rem;
     while(x>0){
         rem=x%10;
-        printf("%d \n",rem);
+        printf("%d",rem);
         x=x/10;
     }
     return 0;
